@@ -1,0 +1,267 @@
+@charset "UTF-8";
+/* CSS Document */
+* {
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, Verdana, sans-serif ;
+	margin: 0;
+	padding: 0;
+}
+html {
+	height: 100%;
+	width: 100%;
+}
+body {
+	font-size: 100%;
+	line-height: 1.5;
+}
+nav ul {
+	list-style: none;
+}
+nav ul a.button {
+	display: block;
+	color: black;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+}
+nav ul a.button1.active, a.button2.active, a.button3.active, a.button4.active, a.button5.active {
+	border-width: 2px;
+	border-style: solid;
+	border-color: white;
+}
+nav ul a.button:hover {
+	opacity: 0.5;
+}
+nav ul a.button1.active:hover, a.button2.active:hover, a.button3.active:hover, a.button4.active:hover, a.button5.active:hover {
+	opacity: 1.0;
+}
+/* Style the search field */
+form.example input[type=text] {
+  	padding: 10px;
+  	font-size: 20px;
+  	border: 1px solid black;
+  	float: left;
+  	width: 80%;
+  	background: white;
+}
+
+/* Style the submit button */
+form.example button {
+  	float: left;
+  	width: 20%;
+  	padding: 8px;
+  	background: #2196F3;
+  	color: white;
+  	border: 1px solid black;
+  	border-left: none; /* Prevent double borders */
+  	cursor: pointer;
+}
+form.example img {
+	height: 25px;
+}
+form.example button:hover {
+  	opacity: 0.5;
+}
+
+/* Clear floats */
+form.example::after {
+ 	content: "";
+  	clear: both;
+  	display: table;
+}
+#navfooter ul a {
+	display: block;
+	color: black;
+	text-decoration: none;
+	text-align: left;
+}
+#navfooter ul a:hover {
+	opacity: 0.5;
+}
+/* Media Queries */
+/* Mobile/Small Tablets */
+@media (min-width: 320px) and (max-width: 767px) {
+}
+/* Tablets/Small Desktop */
+@media (min-width: 768px) and (max-width: 1024px) {
+}
+/* Small Desktop */
+@media (min-width: 1025px) and (max-width: 1280px) {
+}
+/* Desktop */
+@media (min-width: 1281px) {
+	header {
+		display: grid;
+		height: 30vh;
+		width: 100%;
+		grid-template-areas: 'logo search'
+			'nav nav';
+	}
+	.logo {
+		grid-area: logo;
+		display: grid;
+		margin-left: 100px;
+		color: white;
+		justify-content: flex-start;
+		align-content: center;
+	}
+	.logo a {
+		text-decoration: none;
+		margin: 0;
+	}
+	.logo img {
+		width: 200px;
+		margin: 10px 0;
+	}
+	nav {
+		grid-area: nav;
+		display: grid;
+		font-size: 0.8em;
+		margin-right: 20px;
+		justify-content: center;
+		align-content: center;
+		text-align: center;
+	}
+	nav ul {
+		display: grid;
+		grid-template-columns: repeat(7, 25vh);
+		list-style: none;
+	}
+	nav ul a.button1 {
+		margin: 5px;
+		padding: 1vh;
+	}
+	nav ul a.button2 {
+		margin: 5px;
+		padding: 1vh;
+	}
+	nav ul a.button3 {
+		margin: 5px;
+		padding: 1vh;
+	}
+	nav ul a.button4 {
+		margin: 5px;
+		padding: 1vh;
+	}
+	nav ul a.button5 {
+		margin: 5px;
+		padding: 1vh;
+	}
+	#search {
+		grid-area: search;
+		display: grid;
+		margin-right: 100px;
+		justify-content: flex-end;
+		align-content: center;
+	}
+	#chposts {
+		height: 70vh;
+		width: 100%;
+		background: #2196F3; /* url('../background/backgrounds-blank-blue.jpg') */
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	#chposts h1, #chposts p {
+		display: grid;
+		margin: 0 100px;
+		justify-content: center;
+		align-content: center;
+	}
+	#nextpost p, #nextpost a {
+		display: grid;
+		margin: 0 100px;
+		justify-content: center;
+		align-content: flex-end;
+	}
+	.boxes {
+		display: grid;
+		margin: 20px 100px;
+		grid-template-areas: 'b1 b2 b3 b4';
+	}
+	#box1 {
+		grid-area: b1;
+		display: grid;
+		margin-right: 10px;
+		border: 5px solid #ccc;
+		padding: 10px 20px;
+	}
+	#box2 {
+		grid-area: b2;
+		display: grid;
+		margin: 0 10px;
+		border: 5px solid #ccc;
+		padding: 10px 20px;
+	}
+	#box3 {
+		grid-area: b3;
+		display: grid;
+		margin: 0 10px;
+		border: 5px solid #ccc;
+		padding: 10px 20px;
+	}
+	#box4 {
+		grid-area: b4;
+		display: grid;
+		margin-left: 10px;
+		border: 5px solid #ccc;
+		padding: 10px 20px;
+	}
+	.infofooter {
+		display: grid;
+		height: 40vh;
+		width: 100%;
+		grid-template-areas: 'infoabout navfooter cert' ;
+	}
+	#cert {
+		grid-area: cert;
+		display: grid;
+		justify-content: flex-end;
+		align-content: space-around;
+		margin-top: 20px;
+		margin-right: 100px;
+	}
+	#cert img {
+		height: 75px;
+	}
+	#cert a {
+		text-align: right;
+	}
+	#infoabout {
+		grid-area: infoabout;
+		display: grid;
+		margin-top: 20px;
+		margin-left: 100px;
+		align-content: flex-start;
+		justify-content: flex-start;
+	}
+	#navfooter {
+		grid-area: navfooter;
+		display: grid;
+		margin-top: 20px;
+		align-content: flex-start;
+		justify-content: flex-end;
+	}
+	#navfooter ul {
+		margin-left: 20px;
+	}
+	footer {
+		display: grid;
+		height: 15vh;
+		width: 100%;
+	}
+	#some {
+		display: grid;
+		justify-content: center;
+		align-content: center;
+		grid-template-columns: repeat(4, 5vh);
+	}
+	#some img {
+		height: 25px;
+	}
+	#copyrighttext {
+		display: grid;
+		text-align: center;
+	}
+}
+/* End CSS Document */
