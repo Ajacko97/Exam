@@ -40,13 +40,54 @@
 		 <!-- search button, nav bar, rsv -->
 		 <nav>
 			<ul>
-				<li> <a href="#" title="#1" class="button">#1</a> </li>
-				<li> <a href="#" title="#2" class="button">#2</a> </li>
-				<li> <a href="#" title="#3" class="button">#3</a> </li>
-				<li> <a href="#" title="#4" class="button">#4</a> </li>
-				<li> <a href="#" title="#4" class="button">#5</a> </li>
-				<li> <a href="#" title="#4" class="button">#6</a> </li>
-				<li> <a href="#" title="#4" class="button">#7</a> </li>
+				<li class="dropdown">
+					<a href="#" title="#1" class="button">Job and education <br> Youth education (STU)</a>
+					<div class="dropdown-content">
+					  <a href="#">Ungdomsuddannelse (STU)</a>
+					  <a href="#">Internt arbejdsevneafklaringsforløb</a>
+					  <a href="#">Eksternt arbejdsevneafklaringsforløb</a>
+					</div>
+				</li>
+				<li class="dropdown">
+					<a href="#" title="#2" class="button">Network division</a>
+					<div class="dropdown-content">
+					  <a href="#">Ungdomsuddannelse (STU)</a>
+					  <a href="#">Internt arbejdsevneafklaringsforløb</a>
+					  <a href="#">Eksternt arbejdsevneafklaringsforløb</a>
+					</div>
+				</li>
+				<li class="dropdown">
+					<a href="#" title="#3" class="button">Counseling, treatment, studies, courses</a>
+					<div class="dropdown-content">
+					  <a href="#">Ungdomsuddannelse (STU)</a>
+					  <a href="#">Internt arbejdsevneafklaringsforløb</a>
+					  <a href="#">Eksternt arbejdsevneafklaringsforløb</a>
+					</div>
+				</li>
+				<li class="dropdown">
+					<a href="#" title="#4" class="button">Research and development</a>
+					<div class="dropdown-content">
+					  <a href="#">Ungdomsuddannelse (STU)</a>
+					  <a href="#">Internt arbejdsevneafklaringsforløb</a>
+					  <a href="#">Eksternt arbejdsevneafklaringsforløb</a>
+					</div>
+				</li>
+				<li class="dropdown">
+					<a href="#" title="#5" class="button">About us</a>
+					<div class="dropdown-content">
+					  <a href="#">Ungdomsuddannelse (STU)</a>
+					  <a href="#">Internt arbejdsevneafklaringsforløb</a>
+					  <a href="#">Eksternt arbejdsevneafklaringsforløb</a>
+					</div>
+				</li>
+				<li class="dropdown">
+					<a href="#" title="#6" class="button">Contact</a>
+					<div class="dropdown-content">
+					  <a href="#">Ungdomsuddannelse (STU)</a>
+					  <a href="#">Internt arbejdsevneafklaringsforløb</a>
+					  <a href="#">Eksternt arbejdsevneafklaringsforløb</a>
+					</div>
+				</li>
 			</ul> 
 		 </nav>
 		 <div id="search">
@@ -60,19 +101,45 @@
 	 <main>
 		 <!-- article-->
 		 <article id="chposts">
-		 	<h1>
+			<section id="post1">
+		 	 <h1>
 				Title
-			</h1>
+			 </h1>
 			 <p>
 			 	Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
 			 </p>
+			</section>
+			 <section id="post2">
+		 	 <h1>
+				Title
+			 </h1>
+			 <p>
+			 	twoja stara
+			 </p>
+			</section>
+			 <section id="post3">
+		 	 <h1>
+				Title
+			 </h1>
+			 <p>
+			 	Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+			 </p>
+			</section>
+			 <section id="post4">
+		 	 <h1>
+				Title
+			 </h1>
+			 <p>
+			 	Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+			 </p>
+			</section>
 			 <div id="nextpost">
-				 <p>Next Posts</p>
-				 <a href="#posts" id="clicknextpost"><img src="#"></a> 
+				 <p>More</p>
+				 <a href="#boxes" id="clicknextpost"><img src="icons/arrow-down-circle.svg"/></a> 
 			 </div>
 		 </article>
 		 <!-- section-->
-		 <section class="boxes">
+		 <section id="boxes">
 		 	<div id="box1">
 				<h1>Title</h1>
 				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
@@ -139,5 +206,6 @@
 	</div>
 <!-- Script for the website --> 
 <script type="text/javascript" src="script.js"></script>
+<script type="text/jQuery" src="jquery.js"></script>
 </body>
 </html>
