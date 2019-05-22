@@ -45,19 +45,101 @@ body {
 nav ul {
 	list-style: none;
 }
-nav ul a.button {
+nav li a.button1 {
+	display: grid;
+	color: black;
+	margin: 0 5px 0 5px;
+	height: 100%;
+	padding: 5px;
+	text-decoration: none;
+	justify-content: center;
+	align-content: center;
+	text-transform: uppercase;
+	border: 2px solid rgba(84,125,189,1.00);
+}
+nav li a.button2 {
+	display: grid;
+	color: black;
+	margin: 0 5px;
+	height: 100%;
+	padding: 5px;
+	text-decoration: none;
+	justify-content: center;
+	align-content: center;
+	text-transform: uppercase;
+	border: 2px solid rgba(227,38,38,1.00);
+}
+nav ul a.button3 {
+	display: grid;
+	color: black;
+	margin: 0 5px;
+	height: 100%;
+	padding: 5px;
+	text-decoration: none;
+	justify-content: center;
+	align-content: center;
+	text-transform: uppercase;
+	border: 2px solid rgba(102,178,48,1.00);
+}
+nav ul a.button4 {
+	display: grid;
+	color: black;
+	margin: 0 5px;
+	height: 100%;
+	padding: 5px;
+	text-decoration: none;
+	justify-content: center;
+	align-content: center;
+	text-transform: uppercase;
+	border: 2px solid rgba(245,153,74,1.00);
+}
+nav ul a.button5 {
+	display: grid;
+	color: black;
+	margin: 0 5px 0 5px;
+	height: 100%;
+	padding: 5px;
+	text-decoration: none;
+	justify-content: center;
+	align-content: center;
+	text-transform: uppercase;
+	border: 2px solid rgba(234,226,55,1.00);
+}
+nav ul a.button6 {
 	display: block;
 	color: black;
+	margin: 0 0 0 5px;
 	text-decoration: none;
 	text-align: center;
 	text-transform: uppercase;
+	border: 2px solid rgba(156,158,159,1.00);
 }
-nav ul a.button1.active, a.button2.active, a.button3.active, a.button4.active, a.button5.active {
+.dropdown-content.dc1, .dropdown-content.dc1 a {
+	background-color: rgba(84,125,189,1.00);
+	color: white;
+}
+.dropdown-content.dc2, .dropdown-content.dc2 a {
+	background-color: rgba(227,38,38,1.00);
+	color: white;
+}
+.dropdown-content.dc3, .dropdown-content.dc3 a {
+	background-color: rgba(102,178,48,1.00);
+	color: white;
+}
+.dropdown-content.dc4, .dropdown-content.dc4 a {
+	background-color: rgba(245,153,74,1.00);
+	color: white;
+}
+.dropdown-content.dc5, .dropdown-content.dc5 a {
+	background-color: rgba(234,226,55,1.00);
+	color: white;
+}
+/*nav ul a.button1.active, a.button2.active, a.button3.active, a.button4.active, a.button5.active {
 	border-width: 2px;
 	border-style: solid;
 	border-color: white;
-}
-nav ul a.button:hover {
+}*/
+nav ul a.buttonh:hover {
 	opacity: 0.5;
 }
 nav ul a.button1.active:hover, a.button2.active:hover, a.button3.active:hover, a.button4.active:hover, a.button5.active:hover {
@@ -78,7 +160,7 @@ form.example button {
 	float: left;
 	width: 15%;
 	padding: 6px;
-	background-color: lightgray;
+	background-color: rgba(207,209,210,1.00);
 	color: white;
 	border: 1px solid black;
 	cursor: pointer;
@@ -712,7 +794,7 @@ li.dropdown.dropdown-content img {
 	}
 	nav ul {
 		display: grid;
-		grid-template-columns: repeat(6, 200px);
+		grid-template-columns: repeat(5, 250px);
 		list-style: none;
 	}
 	/*drop down .*/
@@ -722,8 +804,6 @@ li.dropdown.dropdown-content img {
 	.dropdown-content {
 		display: none;
 		position: absolute;
-		background-color: white;
-		width: 200px;
 		z-index: 1;
 	}
 	.dropdown-content a {
@@ -738,6 +818,7 @@ li.dropdown.dropdown-content img {
 	}
 	.dropdown:hover .dropdown-content {
 		display: block;
+		width: 250px;
 	}
 	#search {
 		grid-area: search;
@@ -767,7 +848,7 @@ li.dropdown.dropdown-content img {
 		margin: auto;
 	}
 	.slideshow-container img {
-		height: 50vh;
+		height: 55vh;
 		width: 100%;
 	}
 	/* Hide the images by default */
@@ -778,7 +859,7 @@ li.dropdown.dropdown-content img {
 	.prev, .next {
 		cursor: pointer;
 		position: absolute;
-		top: 45%;
+		top: 50%;
 		width: auto;
 		margin-top: -20px;
 		padding: 10px;
@@ -881,7 +962,7 @@ li.dropdown.dropdown-content img {
 		height: 60vh;
 		width: 100%;
 		color: white;
-		background-color: black;
+		background-color: rgba(156,158,159,1.00);
 	}
 	.infofooter {
 		display: grid;
