@@ -1050,9 +1050,45 @@ li.dropdown.dropdown-content img {
 		border: 2px solid rgba(207, 209, 210, 1.0);
 		padding: 10px 20px;
 	}
+	.contact {
+		display: grid;
+		height: 80vh;
+		grid-template-areas: 
+			'headercontact';
+		grid-template-columns: 1fr;
+	}
+	#headercontact {
+		grid-area: headercontact;
+		display: grid;
+		justify-content: center;
+		align-content: center;
+		height: 15vh;
+		color: white;
+		text-transform: uppercase;
+		background-color: rgba(156, 158, 159, 1.00);
+	}
+	/*# {
+		grid-area: ;
+		display: grid;
+		margin-left: 100px;
+		align-content: flex-start;
+		justify-content: flex-start;
+	}
+	# {
+		height: 50vh;
+		width: 40vw;
+		border-style: none;
+	}
+	# {
+		grid-area: findtext;
+		display: grid;
+		margin-right: 100px;
+		align-content: flex-start;
+		justify-content: flex-start;
+	}*/
 	.findus {
 		display: grid;
-		height: 75vh;
+		height: 80vh;
 		grid-template-areas: 
 			'findheader findheader''findmap findtext';
 		grid-template-columns: repeat(2, 1fr);
@@ -1070,7 +1106,7 @@ li.dropdown.dropdown-content img {
 	#findmap {
 		grid-area: findmap;
 		display: grid;
-		margin: 20px 0 0 100px;
+		margin-left: 100px;
 		align-content: flex-start;
 		justify-content: flex-start;
 	}
@@ -1082,9 +1118,9 @@ li.dropdown.dropdown-content img {
 	#findtext {
 		grid-area: findtext;
 		display: grid;
-		margin: 20px 100px 0 20px;
+		margin-right: 100px;
 		align-content: flex-start;
-		justify-content: flex-end;
+		justify-content: flex-start;
 	}
 	.newsletter {
 		display: grid;
@@ -1200,8 +1236,8 @@ li.dropdown.dropdown-content img {
 	#myBtn {
 		display: none;
 		position: fixed;
-		bottom: 30px;
-		right: 30px;
+		bottom: 10px;
+		right: 20px;
 		z-index: 99;
 		border: none;
 		outline: none;
