@@ -76,6 +76,6 @@ function carousel() {
   slideIndex++;
   if (slideIndex > x.length) {slideIndex = 1} 
   x[slideIndex-1].style.display = "block"; 
-  setTimeout(carousel, 8000); // Change image every 8 seconds
+  setTimeout(carousel, 10000); // Change image every 10 seconds
   dots[slideIndex-1].className += " active";
 }
