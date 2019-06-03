@@ -1114,123 +1114,25 @@ li.dropdown.dropdown-content img {
 		text-transform: uppercase;
 		background-color: rgba(156, 158, 159, 1.00);
 	}
-	#headerabout {
-		grid-area: headerabout;
-		display: grid;
-		justify-content: center;
-		align-content: center;
-		height: 15vh;
-		color: white;
-		text-transform: uppercase;
-		background-color: rgba(234, 226, 55, 1.00);
-	}
-	#headervac {
-		grid-area: headervac;
-		display: grid;
-		justify-content: center;
-		align-content: center;
-		height: 15vh;
-		color: white;
-		text-transform: uppercase;
-		background-color: rgba(245, 153, 74, 1.00);
-	}
-	#headerres {
-		grid-area: headerres;
-		display: grid;
-		justify-content: center;
-		align-content: center;
-		height: 15vh;
-		color: white;
-		text-transform: uppercase;
-		background-color: rgba(102, 178, 48, 1.00);
-	}
-	#headerjae {
-		grid-area: headerjae;
-		display: grid;
-		justify-content: center;
-		align-content: center;
-		height: 15vh;
-		color: white;
-		text-transform: uppercase;
-		background-color: rgba(227, 38, 38, 1.00);
-	}
-	#headeroas {
-		grid-area: headeroas;
-		display: grid;
-		justify-content: center;
-		align-content: center;
-		height: 15vh;
-		color: white;
-		text-transform: uppercase;
-		background-color: rgba(84, 125, 189, 1.00);
-	}
 	.contact {
-		display: grid;
-		height: 80vh;
-		grid-template-areas: 
-			'headercontact'
-			'snav';
-		grid-template-columns: 1fr;
-	}
-	.about {
-		display: grid;
-		height: 80vh;
-		grid-template-areas: 
-			'headerabout'
-			'snav';
-		grid-template-columns: 1fr;
-	}
-	.vac {
-		display: grid;
-		height: 80vh;
-		grid-template-areas: 
-			'headervac'
-			'snav';
-		grid-template-columns: 1fr;
-	}
-	.res {
-		display: grid;
-		height: 80vh;
-		grid-template-areas: 
-			'headerres'
-			'snav';
-		grid-template-columns: 1fr;
-	}
-	.jae {
-		display: grid;
-		height: 80vh;
-		grid-template-areas: 
-			'headerjae'
-			'snav';
-		grid-template-columns: 1fr;
-	}
-	.oas {
-		display: grid;
-		height: 80vh;
-		grid-template-areas: 
-			'headeroas'
-			'snav';
-		grid-template-columns: 1fr;
-	}
-	#textcontact {
-		margin: 20px 100px;
-		height: 65vh;
-	}
-	#textcontact h3 {
-		text-transform: uppercase;
-		text-align: center;
-	}
-	#textcontact p {
-		display: grid;
-		justify-content: center;
-		animation-delay: center;
-	}
-	.findus {
 		display: grid;
 		height: 80vh;
 		grid-template-areas: 
 			'headercontact' 'snav';
 		grid-template-columns: 1fr;
+	}
+	#contactcnt {
+		margin: 20px 100px;
+		height: 65vh;
+	}
+	#contactcnt h3 {
+		text-transform: uppercase;
+		text-align: center;
+	}
+	#contactcnt p {
+		display: grid;
+		justify-content: center;
+		animation-delay: center;
 	}
 	#finducnt {
 		display: grid;
@@ -1256,6 +1158,117 @@ li.dropdown.dropdown-content img {
 	}
 	#findtext p {
 		display: inline;
+	}
+	#headerabout {
+		grid-area: headerabout;
+		display: grid;
+		justify-content: center;
+		align-content: center;
+		height: 15vh;
+		color: white;
+		text-transform: uppercase;
+		background-color: rgba(234, 226, 55, 1.00);
+	}
+	.about {
+		display: grid;
+		height: 80vh;
+		grid-template-areas: 
+			'headerabout'
+			'snav';
+		grid-template-columns: 1fr;
+	}
+	#aboutcnt {
+		margin: 20px 100px;
+		height: 65vh;
+	}
+	#headervac {
+		grid-area: headervac;
+		display: grid;
+		justify-content: center;
+		align-content: center;
+		height: 15vh;
+		color: white;
+		text-transform: uppercase;
+		background-color: rgba(245, 153, 74, 1.00);
+	}
+	.vac {
+		display: grid;
+		height: 80vh;
+		grid-template-areas: 
+			'headervac'
+			'snav';
+		grid-template-columns: 1fr;
+	}
+	#vaccnt {
+		display: grid;
+		margin: 20px 100px;
+		height: 65vh;
+	}
+	#headerres {
+		grid-area: headerres;
+		display: grid;
+		justify-content: center;
+		align-content: center;
+		height: 15vh;
+		color: white;
+		text-transform: uppercase;
+		background-color: rgba(102, 178, 48, 1.00);
+	}
+	.res {
+		display: grid;
+		height: 80vh;
+		grid-template-areas: 
+			'headerres'
+			'snav';
+		grid-template-columns: 1fr;
+	}
+	#rescnt {
+		margin: 20px 100px;
+		height: 65vh;
+	}
+	#headerjae {
+		grid-area: headerjae;
+		display: grid;
+		justify-content: center;
+		align-content: center;
+		height: 15vh;
+		color: white;
+		text-transform: uppercase;
+		background-color: rgba(227, 38, 38, 1.00);
+	}
+	.jae {
+		display: grid;
+		height: 80vh;
+		grid-template-areas: 
+			'headerjae'
+			'snav';
+		grid-template-columns: 1fr;
+	}
+	#jaecnt {
+		margin: 20px 100px;
+		height: 65vh;
+	}
+	#headeroas {
+		grid-area: headeroas;
+		display: grid;
+		justify-content: center;
+		align-content: center;
+		height: 15vh;
+		color: white;
+		text-transform: uppercase;
+		background-color: rgba(84, 125, 189, 1.00);
+	}
+	.oas {
+		display: grid;
+		height: 80vh;
+		grid-template-areas: 
+			'headeroas'
+			'snav';
+		grid-template-columns: 1fr;
+	}
+	#oascnt {
+		margin: 20px 100px;
+		height: 65vh;
 	}
 	.newsletter {
 		display: grid;
