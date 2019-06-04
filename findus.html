@@ -40,7 +40,7 @@
             <i class="fas fa-caret-down"></i>
             <li><a href="courses.html">Courses</a></li>
             <li><a href="diagnosis.html">Diagnosis</a></li>
-			<li><a href="#">Events</a></li>
+            <li><a href="#">Events</a></li>
             <li><a href="#">Teaching</a></li>
             <li><a href="#">Support groups</a></li>
           </ul>
@@ -80,7 +80,7 @@
         <li class="dropdown"> <a href="#" title="#6" class="dropbtn button6 buttonh">Contact</a>
           <ul class="dropdown-content dc6">
             <i class="fas fa-caret-down"></i>
-			<li><a href="contact.html">Information</a></li>
+            <li><a href="contact.html">Information</a></li>
             <li><a href="findus.html">Find us</a></li>
           </ul>
         </li>
@@ -89,30 +89,66 @@
     <div id="search">
       <button type="search"><i class="fas fa-search"></i></button>
     </div>
+    <!-- mobile nav bar -->
+    <div class="navbar">
+      <div class="dropdown"> <a href="#" title="#1" class="dropbtn1 button1 buttonh" onclick="myFunction1()">Offers and Services</a>
+        <div class="dropdown-content dc1" id="myDropdown1"> <i class="fas fa-caret-down"></i> <a href="courses.html">Courses</a> <a href="diagnosis.html">Diagnosis</a> <a href="#">Events</a> <a href="#">Teaching</a> <a href="#">Support groups</a> </div>
+      </div>
+      <div class="dropdown"> <a href="#" title="#2" class="dropbtn2 button2 buttonh" onclick="myFunction2()">Job and Education</a>
+        <div class="dropdown-content dc2" id="myDropdown2"> <i class="fas fa-caret-down"></i> <a href="#">Youth education</a> <a href="specialedu.html">Special education</a> <a href="#">Business and Education mentor</a> <a href="jasactivity.html">Jobs and Special activity</a> </div>
+      </div>
+      <div class="dropdown"> <a href="#" title="#3" class="dropbtn3 button3 buttonh" onclick="myFunction3()">Research</a>
+        <div class="dropdown-content dc3" id="myDropdown3"> <i class="fas fa-caret-down"></i> <a href="articles.html">Articles</a> <a href="#">Current projects</a> </div>
+      </div>
+      <div class="dropdown"> <a href="#" title="#4" class="dropbtn4 button4 buttonh" onclick="myFunction4()">Vacanies</a>
+        <div class="dropdown-content dc4" id="myDropdown4"> <i class="fas fa-caret-down"></i> <a href="workincfa.html">Work in CfA</a> </div>
+      </div>
+      <div class="dropdown"> <a href="#" title="#5" class="dropbtn5 button5 buttonh" onclick="myFunction5()">About</a>
+        <div class="dropdown-content dc5" id="myDropdown5"> <i class="fas fa-caret-down"></i> <a href="aboutcfa.html">About CfA</a> <a href="howtostart.html">How to start?</a> <a href="howtogetdiagnosis.html">How to get diagnosis?</a> <a href="#">Sponsors and Partners</a> <a href="#">Organisation</a> </div>
+      </div>
+      <div class="dropdown"> <a href="#" title="#6" class="dropbtn6 button6 buttonh" onclick="myFunction6()">Contact</a>
+        <div class="dropdown-content dc6" id="myDropdown6"> <i class="fas fa-caret-down"></i> <a href="contact.html">Information</a> <a href="findus.html">Find us</a> </div>
+      </div>
+    </div>
   </header>
   <!-- main-->
   <main> 
     <!-- article--> 
     <!-- Slideshow container -->
     <section class="contact">
-	<div id="headercontact"><h1>Find us</h1></div>
-	<div id="smallnav"><a href="index.html" id="navh">Home</a> <i class="fas fa-angle-right"></i> <a href="#" id="navf">Contact</a> <i class="fas fa-angle-right"></i> <a href="findus.html" id="navactiv">Find us</a></div>
-	<div id="finducnt">
-      <div id="findmap">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2246.9457472868307!2d12.421072216073803!3d55.724694996763915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46525045f06a5cd3%3A0x76c7917b18c1e710!2sHerlev+Hovedgade+199%2C+2730+Herlev!5e0!3m2!1sen!2sdk!4v1559394899123!5m2!1sen!2sdk" allowfullscreen></iframe>
+      <div id="headercontact">
+        <h1>Find us</h1>
       </div>
-      <div id="findtext">
-        <h3>Directions</h3><br>
-		  <p><p style="font-family:PFDinDisplayPro-Bold;">Parking:</p><br>
+      <div id="smallnav"><a href="index.html" id="navh">Home</a> <i class="fas fa-angle-right"></i> <a href="#" id="navf">Contact</a> <i class="fas fa-angle-right"></i> <a href="findus.html" id="navactiv">Find us</a></div>
+      <div id="finducnt">
+        <div id="findmap">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2246.9457472868307!2d12.421072216073803!3d55.724694996763915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46525045f06a5cd3%3A0x76c7917b18c1e710!2sHerlev+Hovedgade+199%2C+2730+Herlev!5e0!3m2!1sen!2sdk!4v1559394899123!5m2!1sen!2sdk" allowfullscreen></iframe>
+        </div>
+        <div id="findtext">
+          <h3>Directions</h3>
+          <br>
+          <p>
+          <p style="font-family:PFDinDisplayPro-Bold;">Parking:</p>
+          <br>
           There is a limited number of parking spaces at the Center for Autism, so we recommend that you arrive in good time, so possibly. extra walking distance is included. Parking is possible in the side streets around the Center for Autism. <br>
-          <p style="font-family:PFDinDisplayPro-Bold;">NOTE: Parking at Herlev Hovedgade in the discount is prohibited.</p> <br>
+          <p style="font-family:PFDinDisplayPro-Bold;">NOTE: Parking at Herlev Hovedgade in the discount is prohibited.</p>
           <br>
-		  <p style="font-family:PFDinDisplayPro-Bold;">Bus:</p>  <br>
-          The <p style="font-family:PFDinDisplayPro-Bold;">350S</p> runs every 10 minutes and stops right at the Center for Autism. Get off at MARIELUNDVEJ or WORKHOLM. <p style="font-family:PFDinDisplayPro-Bold;">350S</p> runs: Ballerup st. to Nørreport st. <br>
           <br>
-          <p style="font-family:PFDinDisplayPro-Bold;">167</p> against Herlev st. Get off at the dike and go the last distance. <p style="font-family:PFDinDisplayPro-Bold;">167</p> runs: Herlev st. via Ballerup st. to Herlev st.</p>
+          <p style="font-family:PFDinDisplayPro-Bold;">Bus:</p>
+          <br>
+          The
+          <p style="font-family:PFDinDisplayPro-Bold;">350S</p>
+          runs every 10 minutes and stops right at the Center for Autism. Get off at MARIELUNDVEJ or WORKHOLM.
+          <p style="font-family:PFDinDisplayPro-Bold;">350S</p>
+          runs: Ballerup st. to Nørreport st. <br>
+          <br>
+          <p style="font-family:PFDinDisplayPro-Bold;">167</p>
+          against Herlev st. Get off at the dike and go the last distance.
+          <p style="font-family:PFDinDisplayPro-Bold;">167</p>
+          runs: Herlev st. via Ballerup st. to Herlev st.
+          </p>
+        </div>
       </div>
-	</div>
     </section>
     <article class="newsletter">
       <form action="/action_page.php">

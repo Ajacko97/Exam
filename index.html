@@ -35,7 +35,7 @@
     <!-- search button, nav bar, rsv -->
     <nav>
       <ul>
-        <li class="dropdown"> <a href="#" title="#1" class="dropbtn button1 buttonh">Offers and Services</a>
+        <li class="dropdown"> <a href="#" title="#1" class="dropbtn button1 buttonh" >Offers and Services</a>
           <ul class="dropdown-content dc1">
             <i class="fas fa-caret-down"></i>
             <li><a href="courses.html">Courses</a></li>
@@ -89,6 +89,27 @@
     <div id="search">
       <button type="search"><i class="fas fa-search"></i></button>
     </div>
+    <!-- mobile nav bar -->
+    <div class="navbar">
+      <div class="dropdown"> <a href="#" title="#1" class="dropbtn1 button1 buttonh" onclick="myFunction1()">Offers and Services</a>
+        <div class="dropdown-content dc1" id="myDropdown1"> <i class="fas fa-caret-down"></i> <a href="courses.html">Courses</a> <a href="diagnosis.html">Diagnosis</a> <a href="#">Events</a> <a href="#">Teaching</a> <a href="#">Support groups</a> </div>
+      </div>
+      <div class="dropdown"> <a href="#" title="#2" class="dropbtn2 button2 buttonh" onclick="myFunction2()">Job and Education</a>
+        <div class="dropdown-content dc2" id="myDropdown2"> <i class="fas fa-caret-down"></i> <a href="#">Youth education</a> <a href="specialedu.html">Special education</a> <a href="#">Business and Education mentor</a> <a href="jasactivity.html">Jobs and Special activity</a> </div>
+      </div>
+      <div class="dropdown"> <a href="#" title="#3" class="dropbtn3 button3 buttonh" onclick="myFunction3()">Research</a>
+        <div class="dropdown-content dc3" id="myDropdown3"> <i class="fas fa-caret-down"></i> <a href="articles.html">Articles</a> <a href="#">Current projects</a> </div>
+      </div>
+      <div class="dropdown"> <a href="#" title="#4" class="dropbtn4 button4 buttonh" onclick="myFunction4()">Vacanies</a>
+        <div class="dropdown-content dc4" id="myDropdown4"> <i class="fas fa-caret-down"></i> <a href="workincfa.html">Work in CfA</a> </div>
+      </div>
+      <div class="dropdown"> <a href="#" title="#5" class="dropbtn5 button5 buttonh" onclick="myFunction5()">About</a>
+        <div class="dropdown-content dc5" id="myDropdown5"> <i class="fas fa-caret-down"></i> <a href="aboutcfa.html">About CfA</a> <a href="howtostart.html">How to start?</a> <a href="howtogetdiagnosis.html">How to get diagnosis?</a> <a href="#">Sponsors and Partners</a> <a href="#">Organisation</a> </div>
+      </div>
+      <div class="dropdown"> <a href="#" title="#6" class="dropbtn6 button6 buttonh" onclick="myFunction6()">Contact</a>
+        <div class="dropdown-content dc6" id="myDropdown6"> <i class="fas fa-caret-down"></i> <a href="contact.html">Information</a> <a href="findus.html">Find us</a> </div>
+      </div>
+    </div>
   </header>
   <!-- main-->
   <main> 
@@ -100,7 +121,7 @@
         <!-- Full-width images with number and caption text -->
         <div class="mySlides fade">
           <div class="numbertext">1 / 4</div>
-          <img src="photos/script.jpeg"/>
+          <img src="background/25years.jpg"/>
           <div class="text">
             <p>
             <h2>25 years of Center for Autisme</h2>
@@ -127,7 +148,7 @@
         </div>
         <div class="mySlides fade">
           <div class="numbertext">3 / 4</div>
-          <img src="photos/hænder cirkel.jpeg"/>
+          <img src="background/handsforsupport.jpg"/>
           <div class="text">
             <p>
             <h2>New support group session has just started</h2>
@@ -140,7 +161,7 @@
         </div>
         <div class="mySlides fade">
           <div class="numbertext">4 / 4</div>
-          <img src="photos/dreamstimefree.jpeg"/>
+          <img src="background/specialedu.jpg"/>
           <div class="text">
             <p>
             <h2>Special education semester is going soon</h2>
@@ -163,33 +184,44 @@
     <!-- section-->
     <section id="boxes">
       <div id="box1">
-		  <div id="textbox1">
-        <h3>How to start?</h3>
-        <p>Do you have a diagnosis or do you suspect having autism syndrome? Would you like to sign up for an education or course?</p>
-        <a href="howtostart.html"><p class="bold">Click here</p> to see the steps</a> </div></div>
+        <div id="textbox1">
+          <h3>How to start?</h3>
+          <p>Do you have a diagnosis or do you suspect having autism syndrome? Would you like to sign up for an education or course?</p>
+          <a href="howtostart.html">
+          <p class="bold">Click here</p>
+          to see the steps</a> </div>
+      </div>
       <div id="box2">
-		  <div id="textbox2">
-        <h3>Diagnosis</h3>
-        <p>Do you suspected having an autism syndrome and you would like to get more information?</p>
-        <a href="diagnosis.html"><p class="bold">Click here</p> to see how to get diagnosed</a> </div></div>
+        <div id="textbox2">
+          <h3>Diagnosis</h3>
+          <p>Do you suspected having an autism syndrome and you would like to get more information?</p>
+          <a href="diagnosis.html">
+          <p class="bold">Click here</p>
+          to see how to get diagnosed</a> </div>
+      </div>
       <div id="box3">
-		  <div id="textbox3">
-        <h3>Courses</h3>
-        <p>Are you looking for a relevant courses for yourself or your relative?</p>
-        <a href="courses.html"><p class="bold">Click here</p> to find perfect course</a> </div></div>
+        <div id="textbox3">
+          <h3>Courses</h3>
+          <p>Are you looking for a relevant courses for yourself or your relative?</p>
+          <a href="courses.html">
+          <p class="bold">Click here</p>
+          to find perfect course</a> </div>
+      </div>
       <div id="box4">
-		  <div id="textbox4">
-        <h3>Articles</h3>
-        <p>Do you want to learn more about autism?</p>
-        <a href="courses.html"><p class="bold">Click here</p> and check the our articles</a> </div></div>
+        <div id="textbox4">
+          <h3>Articles</h3>
+          <p>Do you want to learn more about autism?</p>
+          <a href="courses.html">
+          <p class="bold">Click here</p>
+          and check the our articles</a> </div>
+      </div>
     </section>
-	<section id="aboutpost">
-		<div id="posttext">
-		<h1>Center for Autism</h1>
-<p>The Center for Autism helps children, young people and adults with Autism Spectrum Disorder (ASD) to uncover and realize new opportunities and quality of life.</p>
-<a href="aboutcfa.html">Read more</a></div>
-
-	</section>
+    <section id="aboutpost">
+      <div id="posttext">
+        <h1>Center for Autism</h1>
+        <p>The Center for Autism helps children, young people and adults with Autism Spectrum Disorder (ASD) to uncover and realize new opportunities and quality of life.</p>
+        <a href="aboutcfa.html">Read more</a></div>
+    </section>
     <article class="newsletter">
       <form action="/action_page.php">
         <div class="newsletter-container">
