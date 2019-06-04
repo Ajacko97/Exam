@@ -217,8 +217,13 @@ nav ul a.buttonh:hover {}
 #box1 a, #box2 a, #box3 a, #box4 a {
 	display: grid;
 	color: black;
+	text-decoration: none;
 	justify-content: flex-end;
 	align-content: flex-end;
+	text-align: right;
+}
+#boxes a .bold {
+	text-decoration: underline;
 }
 /* Search */
 /* Style the submit button */
@@ -516,30 +521,104 @@ li.dropdown.dropdown-content img {
 	#box1 {
 		grid-area: b1;
 		display: grid;
+		height: 35vh;
 		margin: 10px;
-		border: 2px solid rgba(207, 209, 210, 1.0);
+		border: 1px solid rgba(0, 0, 0, 1.0);
+		background: url('../background/howtostart.jpg');
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	#textbox1 {
+		display: grid;
 		padding: 10px 20px;
+		background-color: rgba(255, 255, 255, 0.8);
 	}
 	#box2 {
 		grid-area: b2;
 		display: grid;
+		height: 35vh;
 		margin: 10px;
-		border: 2px solid rgba(207, 209, 210, 1.0);
+		border: 1px solid rgba(0, 0, 0, 1.0);
+		background: url('../background/autism.jpg');
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	#textbox2 {
+		display: grid;
 		padding: 10px 20px;
+		background-color: rgba(255, 255, 255, 0.8);
 	}
 	#box3 {
 		grid-area: b3;
 		display: grid;
+		height: 35vh;
 		margin: 10px;
-		border: 2px solid rgba(207, 209, 210, 1.0);
+		border: 1px solid rgba(0, 0, 0, 1.0);
+		background: url('../background/courses.jpg');
+		background-position: right;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	#textbox3 {
+		display: grid;
 		padding: 10px 20px;
+		background-color: rgba(255, 255, 255, 0.8);
 	}
 	#box4 {
 		grid-area: b4;
 		display: grid;
+		height: 35vh;
 		margin: 10px;
-		border: 2px solid rgba(207, 209, 210, 1.0);
+		border: 1px solid rgba(0, 0, 0, 1.0);
+		background: url('../background/articles.jpg');
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	#textbox4 {
+		display: grid;
 		padding: 10px 20px;
+		background-color: rgba(255, 255, 255, 0.8);
+	}
+	#aboutpost {
+		grid-area: headercontact;
+		display: grid;
+		height: 50vh;
+		max-width: 100%;
+		padding: 20px 20px;
+		color: white;
+		background-color: rgba(234, 226, 55, 1.00);
+	}
+	#posttext {
+		display: grid;
+		margin: 10px 10px;
+		height: 45vh;
+	}
+	#posttext h1 {
+		display: grid;
+		height: 1vh;
+		justify-content: center;
+		align-content: flex-start;
+		text-transform: uppercase;
+		text-align: center;
+	}
+	#posttext p{
+		display: grid;
+		justify-content: center;
+		align-content: center;
+		text-align: center;
+	}
+	#posttext a {
+		display: grid;
+		justify-content: center;
+		align-content: center;
+		color: white;
+		font-size: 0.9em;
+		text-transform: uppercase;
+		text-align: center;
+		text-decoration: none;
 	}
 	#smallnav {
 		grid-area: snav;
@@ -761,7 +840,6 @@ li.dropdown.dropdown-content img {
 		justify-content: center;
 		height: 100%;
 		max-width: 100%;
-		margin-top: 20px;
 		background-color: rgba(245, 153, 74, 1.00);
 	}
 	.newsletter-container {
@@ -795,7 +873,7 @@ li.dropdown.dropdown-content img {
 		margin: 10px 0;
 		text-align: left;
 		border: none;
-		border-radius: 1vh;
+		border-radius: 5px;
 	}
 	.newsletter-button input[type=submit] {
 		width: 100%;
@@ -804,7 +882,7 @@ li.dropdown.dropdown-content img {
 		margin: 10px 0;
 		text-align: center;
 		border: none;
-		border-radius: 1vh;
+		border-radius: 5px;
 	}
 	footer {
 		display: grid;
@@ -1107,30 +1185,105 @@ li.dropdown.dropdown-content img {
 	#box1 {
 		grid-area: b1;
 		display: grid;
+		height: 35vh;
 		margin: 10px;
-		border: 2px solid rgba(207, 209, 210, 1.0);
+		border: 1px solid rgba(0, 0, 0, 1.0);
+		background: url('../background/howtostart.jpg');
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	#textbox1 {
+		display: grid;
 		padding: 10px 20px;
+		background-color: rgba(255, 255, 255, 0.8);
 	}
 	#box2 {
 		grid-area: b2;
 		display: grid;
+		height: 35vh;
 		margin: 10px;
-		border: 2px solid rgba(207, 209, 210, 1.0);
+		border: 1px solid rgba(0, 0, 0, 1.0);
+		background: url('../background/autism.jpg');
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	#textbox2 {
+		display: grid;
 		padding: 10px 20px;
+		background-color: rgba(255, 255, 255, 0.8);
 	}
 	#box3 {
 		grid-area: b3;
 		display: grid;
+		height: 35vh;
 		margin: 10px;
-		border: 2px solid rgba(207, 209, 210, 1.0);
+		border: 1px solid rgba(0, 0, 0, 1.0);
+		background: url('../background/courses.jpg');
+		background-position: right;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	#textbox3 {
+		display: grid;
 		padding: 10px 20px;
+		background-color: rgba(255, 255, 255, 0.8);
 	}
 	#box4 {
 		grid-area: b4;
 		display: grid;
+		height: 35vh;
 		margin: 10px;
-		border: 2px solid rgba(207, 209, 210, 1.0);
+		border: 1px solid rgba(0, 0, 0, 1.0);
+		background: url('../background/articles.jpg');
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	#textbox4 {
+		display: grid;
 		padding: 10px 20px;
+		background-color: rgba(255, 255, 255, 0.8);
+	}
+	#aboutpost {
+		grid-area: headercontact;
+		display: grid;
+		height: 50vh;
+		max-width: 100%;
+		padding: 20px 20px;
+		color: white;
+		background-color: rgba(234, 226, 55, 1.00);
+	}
+	#posttext {
+		display: grid;
+		margin: 10px 10px;
+		height: 45vh;
+	}
+	#posttext h1 {
+		display: grid;
+		height: 1vh;
+		justify-content: center;
+		align-content: flex-start;
+		text-transform: uppercase;
+		text-align: center;
+	}
+	#posttext p{
+		display: grid;
+		justify-content: center;
+		align-content: center;
+		font-size: 2.25em;
+		text-align: center;
+	}
+	#posttext a {
+		display: grid;
+		justify-content: center;
+		align-content: center;
+		color: white;
+		font-size: 0.9em;
+		text-transform: uppercase;
+		text-align: center;
+		text-decoration: none;
 	}
 	#smallnav {
 		grid-area: snav;
@@ -1352,7 +1505,6 @@ li.dropdown.dropdown-content img {
 		justify-content: center;
 		height: 70vh;
 		max-width: 100%;
-		margin-top: 20px;
 		background-color: rgba(245, 153, 74, 1.00);
 	}
 	.newsletter-container {
@@ -1386,7 +1538,7 @@ li.dropdown.dropdown-content img {
 		margin: 10px 0;
 		text-align: left;
 		border: none;
-		border-radius: 1vh;
+		border-radius: 5px;
 	}
 	.newsletter-button input[type=submit] {
 		width: 15vw;
@@ -1395,7 +1547,7 @@ li.dropdown.dropdown-content img {
 		margin: 10px 0;
 		text-align: center;
 		border: none;
-		border-radius: 1vh;
+		border-radius: 5px;
 	}
 	footer {
 		display: grid;
@@ -1692,29 +1844,100 @@ li.dropdown.dropdown-content img {
 		grid-area: b1;
 		display: grid;
 		margin-right: 10px;
-		border: 2px solid rgba(207, 209, 210, 1.0);
+		border: 1px solid rgba(0, 0, 0, 1.0);
+		background: url('../background/howtostart.jpg');
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	#textbox1 {
+		display: grid;
 		padding: 10px 20px;
+		background-color: rgba(255, 255, 255, 0.8);
 	}
 	#box2 {
 		grid-area: b2;
 		display: grid;
 		margin: 0 10px;
-		border: 2px solid rgba(207, 209, 210, 1.0);
+		border: 1px solid rgba(0, 0, 0, 1.0);
+		background: url('../background/autism.jpg');
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	#textbox2 {
+		display: grid;
 		padding: 10px 20px;
+		background-color: rgba(255, 255, 255, 0.8);
 	}
 	#box3 {
 		grid-area: b3;
 		display: grid;
 		margin: 0 10px;
-		border: 2px solid rgba(207, 209, 210, 1.0);
+		border: 1px solid rgba(0, 0, 0, 1.0);
+		background: url('../background/courses.jpg');
+		background-position: right;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	#textbox3 {
+		display: grid;
 		padding: 10px 20px;
+		background-color: rgba(255, 255, 255, 0.8);
 	}
 	#box4 {
 		grid-area: b4;
 		display: grid;
 		margin-left: 10px;
-		border: 2px solid rgba(207, 209, 210, 1.0);
+		border: 1px solid rgba(0, 0, 0, 1.0);
+		background: url('../background/articles.jpg');
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	#textbox4 {
+		display: grid;
 		padding: 10px 20px;
+		background-color: rgba(255, 255, 255, 0.8);
+	}
+	#aboutpost {
+		grid-area: headercontact;
+		display: grid;
+		height: 50vh;
+		max-width: 100%;
+		padding: 20px 150px;
+		color: white;
+		background-color: rgba(234, 226, 55, 1.00);
+	}
+	#posttext {
+		display: grid;
+		margin: 10px 150px;
+		height: 45vh;
+	}
+	#posttext h1 {
+		display: grid;
+		height: 1vh;
+		justify-content: center;
+		align-content: flex-start;
+		text-transform: uppercase;
+		text-align: center;
+	}
+	#posttext p{
+		display: grid;
+		justify-content: center;
+		align-content: center;
+		font-size: 2.25em;
+		text-align: center;
+	}
+	#posttext a {
+		display: grid;
+		justify-content: center;
+		align-content: center;
+		color: white;
+		font-size: 0.9em;
+		text-transform: uppercase;
+		text-align: center;
+		text-decoration: none;
 	}
 	#smallnav {
 		grid-area: snav;
@@ -1963,7 +2186,7 @@ li.dropdown.dropdown-content img {
 		margin: 10px 0;
 		text-align: left;
 		border: none;
-		border-radius: 1vh;
+		border-radius: 5px;
 	}
 	.newsletter-button input[type=submit] {
 		width: 8vw;
@@ -1972,7 +2195,7 @@ li.dropdown.dropdown-content img {
 		margin: 10px 0;
 		text-align: center;
 		border: none;
-		border-radius: 1vh;
+		border-radius: 5px;
 	}
 	footer {
 		display: grid;
@@ -2267,29 +2490,100 @@ li.dropdown.dropdown-content img {
 		grid-area: b1;
 		display: grid;
 		margin-right: 10px;
-		border: 2px solid rgba(207, 209, 210, 1.0);
+		border: 1px solid rgba(0, 0, 0, 1.0);
+		background: url('../background/howtostart.jpg');
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	#textbox1 {
+		display: grid;
 		padding: 10px 20px;
+		background-color: rgba(255, 255, 255, 0.8);
 	}
 	#box2 {
 		grid-area: b2;
 		display: grid;
 		margin: 0 10px;
-		border: 2px solid rgba(207, 209, 210, 1.0);
+		border: 1px solid rgba(0, 0, 0, 1.0);
+		background: url('../background/autism.jpg');
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	#textbox2 {
+		display: grid;
 		padding: 10px 20px;
+		background-color: rgba(255, 255, 255, 0.8);
 	}
 	#box3 {
 		grid-area: b3;
 		display: grid;
 		margin: 0 10px;
-		border: 2px solid rgba(207, 209, 210, 1.0);
+		border: 1px solid rgba(0, 0, 0, 1.0);
+		background: url('../background/courses.jpg');
+		background-position: right;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	#textbox3 {
+		display: grid;
 		padding: 10px 20px;
+		background-color: rgba(255, 255, 255, 0.8);
 	}
 	#box4 {
 		grid-area: b4;
 		display: grid;
 		margin-left: 10px;
-		border: 2px solid rgba(207, 209, 210, 1.0);
+		border: 1px solid rgba(0, 0, 0, 1.0);
+		background: url('../background/articles.jpg');
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	#textbox4 {
+		display: grid;
 		padding: 10px 20px;
+		background-color: rgba(255, 255, 255, 0.8);
+	}
+	#aboutpost {
+		grid-area: headercontact;
+		display: grid;
+		height: 50vh;
+		max-width: 100%;
+		padding: 20px 150px;
+		color: white;
+		background-color: rgba(234, 226, 55, 1.00);
+	}
+	#posttext {
+		display: grid;
+		margin: 10px 150px;
+		height: 45vh;
+	}
+	#posttext h1 {
+		display: grid;
+		height: 1vh;
+		justify-content: center;
+		align-content: flex-start;
+		text-transform: uppercase;
+		text-align: center;
+	}
+	#posttext p{
+		display: grid;
+		justify-content: center;
+		align-content: center;
+		font-size: 2.25em;
+		text-align: center;
+	}
+	#posttext a {
+		display: grid;
+		justify-content: center;
+		align-content: center;
+		color: white;
+		font-size: 0.9em;
+		text-transform: uppercase;
+		text-align: center;
+		text-decoration: none;
 	}
 	#smallnav {
 		grid-area: snav;
@@ -2505,7 +2799,6 @@ li.dropdown.dropdown-content img {
 		justify-content: center;
 		height: 60vh;
 		max-width: 100%;
-		margin-top: 20px;
 		background-color: rgba(245, 153, 74, 1.00);
 	}
 	.newsletter-container {
@@ -2538,7 +2831,7 @@ li.dropdown.dropdown-content img {
 		margin: 10px 0;
 		text-align: left;
 		border: none;
-		border-radius: 1vh;
+		border-radius: 5px;
 	}
 	.newsletter-button input[type=submit] {
 		width: 8vw;
@@ -2547,7 +2840,7 @@ li.dropdown.dropdown-content img {
 		margin: 10px 0;
 		text-align: center;
 		border: none;
-		border-radius: 1vh;
+		border-radius: 5px;
 	}
 	footer {
 		display: grid;
